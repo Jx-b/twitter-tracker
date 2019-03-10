@@ -1,8 +1,8 @@
 ### List of variable to set search criteria and filters for the Twitter tracker ###
 
 # search query
-QUERY = ['relugolix OR orilissa']
+QUERY = ['keyword1 OR keyword2']
 MAX_TWEETS = 100
 
 # stream filter
-HASHTAGS = ["relugolix"]
+HASHTAGS = ["keyword1", "keyword2"]
