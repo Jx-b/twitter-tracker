@@ -30,21 +30,6 @@ class TwitterClient():
         self.api = API(self.auth)
         self.twitter_user = twitter_user
 
-    #def get_twitter_client_api(self):
-    #    return self.api
-
-    #def get_user_timeline_tweets(self, num_tweets):
-    #    tweets = []
-    #    for tweet in Cursor(self.api.user_timeline, id= self.twitter_user).items(num_tweets):
-    #        tweets.append(tweet)
-    #   return tweets
-
-    #def get_user_home_timeline_tweets(self, num_tweets):
-    #    home_tweets = []
-    #    for tweet in Cursor(self.api.home_timeline, id= self.twitter_user).items(num_tweets):
-    #        home_tweets.append(tweet)
-    #    return home_tweets
-
 ### TWITTER STREAMER ###
 class TwitterStreamer():
     """
